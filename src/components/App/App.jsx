@@ -10,6 +10,7 @@ import {
   Section,
   Text,
   Todo,
+  TodoList,
 } from 'components';
 
 import React from 'react';
@@ -60,7 +61,8 @@ export function App() {
             <Text textAlign="center">There are no any todos ... </Text>
           )}
 
-          <Grid>
+          <TodoList />
+          {/* <Grid>
             {todos.length > 0 &&
               todos.map((todo, index) => (
                 <GridItem key={todo.id}>
@@ -72,7 +74,7 @@ export function App() {
                   />
                 </GridItem>
               ))}
-          </Grid>
+          </Grid> */}
         </Container>
       </Section>
     </>
