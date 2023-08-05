@@ -3,13 +3,10 @@ import { nanoid } from 'nanoid';
 
 import {
   Container,
-  Grid,
-  GridItem,
   Header,
   SearchForm,
   Section,
   Text,
-  Todo,
   TodoList,
 } from 'components';
 
